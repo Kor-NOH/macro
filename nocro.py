@@ -1,12 +1,28 @@
 import pyautogui
-from tkinter import *
-
-while(1):
-    def press(event):
-        print(event)
-        
-#pyautogui.moveTo(743, 178, 2)
-# 화면상 x=100, y = 100으로 마우스가 2초간 이동함
-
-#while(1):
-#    pyautogui.doubleClick()
+import time
+while(1) :
+    pyautogui.moveTo(743, 169, 2)
+    # 화면상 x=100, y = 100으로 마우스가 2초간 이동함
+    pyautogui.doubleClick()
+    time.sleep(1)
+    pyautogui.typewrite("hElLo")
+    pyautogui.typewrite(['enter'])
+    time.sleep(2)
+    pyautogui.typewrite("tHiS Is dOnGwOn`s cOmPuTeR!!")
+    pyautogui.typewrite(['enter'])
+    time.sleep(2)
+    pyautogui.typewrite("He dOn`t gO HoMe")
+    pyautogui.typewrite(['enter'])
+    time.sleep(2)
+    pyautogui.typewrite("hE Go jUsT SmOkE")
+    pyautogui.typewrite(['enter'])
+    time.sleep(2)
+    pyautogui.typewrite("If yOu hAvE SoMeThInG To sAy tO HiM")
+    pyautogui.typewrite(['enter'])
+    time.sleep(2)
+    pyautogui.typewrite("wAiT A MiNuTe pLeAsE~~")
+    pyautogui.typewrite(['enter'])
+    pyautogui.moveTo(914, 22, 1)
+    pyautogui.click()
+    pyautogui.moveTo(483, 664, 2)
+    pyautogui.click()
